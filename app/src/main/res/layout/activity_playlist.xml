@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/artist"
+    tools:context="com.example.bruno.musicstructureapp.ArtistsActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/artist_home_button"
+            style="@style/NavigationButton"
+            android:background="@color/colorPrimary"
+            android:text="Home"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/artist_playlist_button"
+            android:layout_weight="1"
+            style="@style/NavigationButton"
+            android:background="@color/colorPrimary"
+            android:text="Artists"/>
+    </LinearLayout>
+    <TextView
+        style="@style/ArtistName"
+        android:background="@drawable/borderlines"
+        android:text="Playlist Placeholder 1"/>
+    <TextView
+        style="@style/ArtistName"
+        android:background="@drawable/borderlines"
+        android:text="PLaylist Placeholder 1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:text="Contains the playist created by users, the textviews aren't clickable but theoretically they would play music once clicked"/>
+</LinearLayout>

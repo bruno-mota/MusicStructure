@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music Structure App</string>
+    <string name="category_artist">Artists</string>
+    <string name="category_playlist">Playlist</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_albums">Albums</string>
+    <string name="Payment_Text">The botton is made using the android pay api, the develepor can set the price of the product or service and when the user clicks the button, they have to confirm the price and product that they are buying.</string>
+</resources>

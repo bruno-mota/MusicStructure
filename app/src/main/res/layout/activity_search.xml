@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bruno.musicstructureapp.SearchActivity"
+    android:background="@color/artist">
+    <TextView
+            android:id="@+id/artist_home_button"
+            style="@style/NavigationButton"
+            android:background="@color/colorPrimary"
+            android:text="Home" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:text="Would display the search results pertaining to the information entered by the user."
+        />
+</LinearLayout>
