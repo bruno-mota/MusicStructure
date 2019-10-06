@@ -1,2 +1,2 @@
 # MusicStructure
-App to allow users to play audio files. For the Udacity Nanodegree
+App to practice multi-screen navigation. For the Udacity Nanodegree
